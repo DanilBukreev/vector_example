@@ -104,3 +104,4 @@ bool operator!=(vector_t const& lhs, vector_t const& rhs) {
   if (lhs == rhs) return false;
   return true;
 }
+  
