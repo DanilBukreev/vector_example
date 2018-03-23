@@ -1,5 +1,4 @@
 #include <iostream>
-// very good job
 class vector_t
 {
 private:
