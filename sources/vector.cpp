@@ -19,7 +19,7 @@ vector_t::vector_t(vector_t const& other) {
 }
 
 vector_t& vector_t::operator=(vector_t const& other) {
-  if (!= &other) {
+  if (this != &other) {
     delete[] elements_;
     size_ = other.size_;
     capacity_ = other.capacity_;
