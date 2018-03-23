@@ -7,7 +7,7 @@ vector_t::vector_t() // конструктор
 {
 }
 
-vector_t::vector_t(vector_t const & other)
+vector_t::vector_t(vector_t const & other) // не по умолчанию
 {
 }
 
