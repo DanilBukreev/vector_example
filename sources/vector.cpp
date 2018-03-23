@@ -19,9 +19,9 @@ vector_t::vector_t(vector_t const& other) {
 vector_t& vector_t::operator=(vector_t const& other) {
   if (this != &other) {
     delete[] elements_;
-    this.size_ = other.size_;
-    this.capacity_ = other.capacity_;
-    this.elements_ = new int[capacity_];
+    this->size_ = other.size_;
+    this->capacity_ = other.capacity_;
+    this->elements_ = new int[capacity_];
     for (unsigned int i = 0; i < size_; i++) elements_[i] = other.elements_[i];
   }
   return *this;
