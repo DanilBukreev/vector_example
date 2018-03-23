@@ -8,8 +8,8 @@ private:
                                // если capacity == size то делаем перераспределение памяти 
 public:
 	vector_t();
-	vector_t(vector_t const & other);
-	vector_t & operator =(vector_t const & other);
+	vector_t(vector_t const & other); // конструктор копирования 
+	vector_t & operator =(vector_t const & other); //опеатор присваивания 
 	~vector_t();
 
 	std::size_t size() const;
